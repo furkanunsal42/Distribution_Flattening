@@ -21,6 +21,13 @@
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Users\FurkanPC\Desktop\distributions\Untitled.png" />
+    <Image Include="..\..\..\..\Users\FurkanPC\Desktop\distributions\Untitled2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Users\FurkanPC\Desktop\distributions\New Text Document.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

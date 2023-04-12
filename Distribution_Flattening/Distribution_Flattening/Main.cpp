@@ -253,7 +253,7 @@ int main() {
 	std::vector<GaussFunction> best_combunation;
 
 	for (int i = 0; i < FUNCTION_AMOUNT; i++) {
-		GaussFunction gauss(random() * 0.3, random() * 10, 1.0);
+		GaussFunction gauss(random() * 0.5, random() * 10, 1.0);
 		gauss.stay_at_boundry();
 		all_functions.push_back(gauss);
 	}
@@ -316,6 +316,8 @@ int main() {
 			current_functions.erase(current_functions.begin() + min_index);
 
 			optimize(current_functions, 0, false, false);
+			std::cout << min_loss << std::endl;
+
 			iterations_left++;
 			if (current_functions.size() >= MINIMUM_AMOUNT_OF_FUNCTIONS && min_loss < best_loss) {
 				best_loss = min_loss;
