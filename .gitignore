@@ -1,0 +1,17 @@
+
+*.vsidx
+*.lock
+*.db
+*.db-shm
+*.db-wal
+*.opendb
+*.ipch
+*.tlog
+*.recipe
+*.ilk
+*.log
+*.obj
+*.idb
+*.pdb
+*.iobj
+*.ipdb
